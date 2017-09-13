@@ -207,29 +207,29 @@ p.copyright {
 }
 
 .port-box {
-  background: white;
+  /* background: white; */
   text-align: center;
-  height: 400px;
+  /* height: 400px; */
   padding: 20px;
-  margin-bottom: 30px;
-  border:1px solid #e7e7e7;
-  background-color: #f8f8f8;
+  /* margin-bottom: 30px; */
+  /* border:1px solid #e7e7e7; */
+  /* background-color: #f8f8f8; */
 
 }
 
 .port-title{
-  color:#212529;
+  /* color:#212529; */
   padding-top: 15px;
   text-transform: uppercase;
   font-size: 20px;
 }
 
 .port-content {
-  color:#212529;
+  /* color:#212529; */
   margin-top: 20px;
 }
 
 .port-header {
-  height: 150px;
-  background-color: #007bff;
+  height: 50px;
+  /* background-color: #007bff; */
 }
