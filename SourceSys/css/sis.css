@@ -14,7 +14,7 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/default-page-title-thinkergy.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -101,6 +101,11 @@ body, h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
 }
 
+.banner.-portfolio {
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-attachment: fixed;
+}
+
 .banner h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -155,4 +160,76 @@ p.copyright {
   height: 100%;
   padding: 0px;
   width: auto;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: 20px;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+.-italic {
+  font-style: italic
+}
+.-center {
+  text-align: center;
+  float: none;
+}
+
+.port-box {
+  background: white;
+  text-align: center;
+  height: 400px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border:1px solid #e7e7e7;
+  background-color: #f8f8f8;
+
+}
+
+.port-title{
+  color:#212529;
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.port-content {
+  color:#212529;
+  margin-top: 20px;
+}
+
+.port-header {
+  height: 150px;
+  background-color: #007bff;
 }
