@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
- */
 
 body, html {
   width: 100%;
@@ -21,6 +16,7 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #f8f8f8;
   background: url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .intro-message {
@@ -102,6 +98,7 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #f8f8f8;
   background: url(../img/banner-bg.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .banner h2 {
@@ -149,4 +146,13 @@ footer {
 
 p.copyright {
   margin: 15px 0 0;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px;
+  width: auto;
 }
