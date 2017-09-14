@@ -19,6 +19,11 @@ gulp.task('copy', function() {
   gulp.src(['node_modules/popper.js/dist/umd/popper.js', 'node_modules/popper.js/dist/umd/popper.min.js'])
     .pipe(gulp.dest('vendor/popper'))
 
+
+  gulp.src(['node_modules/owl.carousel/dist/owl.carousel.min.js'])
+  .pipe(gulp.dest('vendor/carousel'))
+
+
   gulp.src([
       'node_modules/font-awesome/**',
       '!node_modules/font-awesome/**/*.map',
