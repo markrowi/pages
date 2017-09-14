@@ -13,6 +13,8 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -28,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="img/source_logo1.png" alt="Dispute Bills">
+          <img src="img/logo_trans.png" alt="Dispute Bills">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,36 +55,22 @@
     </nav>
 
     <!-- Header -->
-    <header class="intro-header">
-      <div class="container">
+    <header id="intro" class="intro-header owl-carousel">
+      <!-- <div id="intro" class="container owl-carousel"> -->
+          <div class="owl-slide slide-1"> </div>
+          <div class="owl-slide slide-2"></div>
+          <div class="owl-slide slide-3"></div>
+      <!-- </div> -->
+      
+      <!-- <div class="container">
         <div class="intro-message">
           <h3>Exceeding Our</h3>
           <h1>Client's Expectations</h1>
           <hr class="intro-divider">
           <h4>Our business comes from word-of-mouth. It's said that you're only as good as your last job.</h4>
           
-          <!-- <ul class="list-inline intro-social-buttons">
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-twitter fa-fw"></i>
-                <span class="network-name">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-github fa-fw"></i>
-                <span class="network-name">Github</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-linkedin fa-fw"></i>
-                <span class="network-name">Linkedin</span>
-              </a>
-            </li>
-          </ul> -->
         </div>
-      </div>
+      </div> -->
     </header>
 
     <!-- Page About -->
@@ -197,6 +185,33 @@
     </section>
     <!-- /.content-section-b -->
 
+    <!-- Clients -->
+    <section class="content-section-a">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12 -center">
+                  
+                  <h4 class="section-heading ">Our Client's</h4>
+                  <hr class="section-heading-spacer -center">
+                  <div class="clearfix"></div>
+                </div>      
+            <div id="client-carousel" class="col-lg-12  owl-carousel owl-theme">
+                
+              <div class="client-logo"> <img src="img/logo.png" alt=""> </div>
+              <div class="client-logo"> <img src="img/logo_trans.png" alt=""> </div>
+              <div class="client-logo"> <img src="img/logo.png" alt=""> </div>
+              <div class="client-logo"> <img src="img/logo_trans.png" alt=""> </div>
+              <div class="client-logo"> <img src="img/logo.png" alt=""> </div>
+              <div class="client-logo"> <img src="img/source_logo1.png" alt=""> </div>
+              <div class="client-logo"> <img src="img/logo_trans.png" alt=""> </div>
+                  
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+  
+      </section>
+
     <aside class="banner -portfolio">
         
         <div class="container">
@@ -288,22 +303,51 @@
       </aside>
             <!-- /.banner -->
 
-    <section class="content-section-a">
+    <section id="blog" class="content-section-a">
 
       <div class="container">
-
         <div class="row">
-          <div class="col-lg-6 ml-auto">
+          <div class="col-lg-12 -center">
+              
+              <h4 class="section-heading">Blog</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 ml-auto event_animate_left">
+              <img class="img-fluid" src="img/blog_01.jpg" alt="">
+          </div>
+          <div class="col-lg-5 mr-auto event_animate_right">
+            <h2 class="section-heading">AppzPixel is 3</h2>
+            <p class="lead -small">
+                <span class="fa fa-user"></span> posted by <a href="#">Kelly</a>  &nbsp;&nbsp;
+                <span class="fa fa-calendar"></span> 30<sup>th</sup> Aug 2017 &nbsp;&nbsp;
+                <span class="fa fa-bookmark"></span> <a href="#">Out Mobile CoE</a>, <a href="appzpixel.com">AppzPixel</a>, <a href="#">3 years old</a>
+            </p>
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">AppzPixel is 3<br>Font Awesome Icons</h2>
             <p class="lead">Our Digital App development CoE AppzPixel is today 3. Since its inception, we have served 50 happy clients and over 89 projects & counting. Producing an App that�s both profitable and sustainable is critical journey. What has worked for our customers is we partnering with them to ensure our app stands out amongst the rest. Once we have initially heard your idea, we follow our unique experimentation framework to market your idea into substantial apps or websites via the stringent quest for 5W's.</p>
             <p class="lead">Interested in knowing more about converting your ideas into success using our Digital Centre of Excellent <a href="" target="_blank">Contact Us</a>               </p>
           </div>
-          <div class="col-lg-4 mr-auto ">
-            <img class="img-fluid" src="img/phones.png" alt="">
-          </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-5 ml-auto event_animate_left">
+                <img class="img-fluid" src="img/blog_02.jpg" alt="">
+            </div>
+            <div class="col-lg-5 mr-auto event_animate_right">
+              
+              <h2 class="section-heading">Content Management Systems</br>Power from us to you</h2>
+              <p class="lead -small">
+                  <span class="fa fa-user"></span> posted by <a href="#">George</a> &nbsp;&nbsp;
+                  <span class="fa fa-calendar"></span> 26 <sup>th</sup> July 2017 &nbsp;&nbsp;
+                  <span class="fa fa-bookmark"></span> <a href="#">Web Design</a>, <a href="#">New Trend</a>
+              </p>
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <p class="lead">Our Digital App development CoE AppzPixel is today 3. Since its inception, we have served 50 happy clients and over 89 projects & counting. Producing an App that�s both profitable and sustainable is critical journey. What has worked for our customers is we partnering with them to ensure our app stands out amongst the rest. Once we have initially heard your idea, we follow our unique experimentation framework to market your idea into substantial apps or websites via the stringent quest for 5W's.</p>
+              <p class="lead">Interested in knowing more about converting your ideas into success using our Digital Centre of Excellent <a href="" target="_blank">Contact Us</a>               </p>
+            </div>
+          </div>
 
       </div>
       <!-- /.container -->
@@ -311,29 +355,46 @@
     </section>
     <!-- /.content-section-a -->
 
-   
+    <section class="content-section-b">
+      <div class="container">
+        <div class="row">
+           
+            
+          <div class="col-lg-12 -center">
+              <hr class="section-heading-spacer -center">
+              <div class="clearfix"></div>
+              <h4 class="section-heading">Visit Us</h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.860455160426!2d151.20699!3d-33.867487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDUyJzAzLjAiUyAxNTHCsDEyJzI1LjIiRQ!5e0!3m2!1sen!2sph!4v1505406400496" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+
+    </section>
 
     <!-- Footer -->
-    <footer id="contact">
+    <footer id="footer">
       <div class="container">
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">Home</a>
-          </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#about">About</a>
-          </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#services">Services</a>
-          </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
-          <li class="list-inline-item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-        <p class="copyright text-muted small">Copyright &copy; Your Company 2017. All Rights Reserved</p>
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="lead text-footer-address">
+            Level 1, 250 Pitt Street, Sydney 
+          </p>
+        </div>
+        <div class="col-lg-4">
+
+        </div>
+        <div class="col-lg-4">
+          <ul class="footercontacts">
+              <li><a href="tel:0288757745"><span class="fa fa-phone"></span>(02) 8875 7745</a></li>
+              <li><a href="tel:1300791684"><span class="fa fa-mobile"></span>1300 791 684</a></li>
+              <!-- <li><a href="tel:0386772581"><span class="fa fa-fax"></span>(03) 8677 2581</a></li> -->
+              <li><a href="mailto:info@sourceinfosystem.com"><span class="fa fa-envelope"></span>info@sourceinfosystem.com</a></li>
+          </ul>
+            
+        </div>
+      </div>
+      <p class="copyright text-muted small">Copyright &copy; 2017 Source Infosystems. All Rights Reserved</p>
       </div>
     </footer>
 
@@ -342,6 +403,9 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    
   </body>
 
 </html>

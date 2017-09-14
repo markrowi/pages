@@ -10,13 +10,14 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-header {
+  height: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/default-page-title-thinkergy.jpg) no-repeat center center;
+  /* background: url(../img/default-page-title-thinkergy.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 .intro-message {
@@ -157,7 +158,7 @@ p.copyright {
   padding: 0px;
 }
 .navbar-brand>img {
-  height: 100%;
+  height: 90px;
   padding: 0px;
   width: auto;
 }
@@ -232,4 +233,100 @@ p.copyright {
 .port-header {
   height: 50px;
   /* background-color: #007bff; */
+}
+
+#blog {
+  overflow: hidden;
+}
+
+#blog .row:not(:last-child){
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+#blog .section-heading-spacer{
+  margin-top: 0px;
+}
+
+#footer{
+  background-color: #363636;
+  color:#fff;
+}
+
+.text-footer-address {
+  font-size: 32px;
+  word-wrap: break-word;
+}
+
+.footercontacts {
+  list-style: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.footercontacts a {
+  color:#fff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footercontacts a > span {
+  margin-right: 36px;
+  width: 20px;
+  height: 20px;
+  font-size: 27px;
+}
+
+.footercontacts li{
+  margin-bottom: 10px;
+}
+
+.owl-carousel .client-logo {
+  cursor: pointer;
+  height: 108px;
+  widows: 214px;
+  
+}
+
+.intro-header{
+  /* position: relative; */
+  /* height: 80%; */
+  height: 560px;
+  padding: 0px;
+}
+
+.owl-stage-outer, .owl-stage, .owl-item {
+  height: 100%;
+}
+.owl-slide {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  content: " ";
+  height: 100%;
+  /* width: auto; */
+  
+} 
+
+.owl-slide.slide-1{
+  background-image: url(../img/banner_slide_01.jpg);
+}
+
+.owl-slide.slide-2{
+  background-image: url(../img/banner_slide_02.jpg);
+}
+
+.owl-slide.slide-3{
+  background-image: url(../img/banner_slide_03.jpg);
+}
+
+
+.lead.-small{
+  font-size: .8rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .intro-header{
+    height: 150px;   
+  }
 }
