@@ -1,5 +1,54 @@
 $(document).ready(function(){
 
+    var $root = $('html, body');
+    $('a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, {
+            duration: 500,
+            specialEasing: {
+              width: "linear",
+              height: "easeOutBounce"
+            }
+        }
+        , function () {
+            window.location.hash = href;
+        });
+        return false;
+    });
+
+    $(document).scroll(function(){
+        document_top = $(document).scrollTop()-1000;
+        event_wapper_top = $("#portfolio").position().top-1110;
+        if(document_top<event_wapper_top){
+            degree = (360/event_wapper_top)*(document_top);
+            event_animate_num = event_wapper_top - document_top;
+            event_animate_alpha = (1/event_wapper_top)*(document_top);
+            $("#portfolio .port-header i").css({
+                        '-webkit-transform': 'rotate(' + degree + 'deg)',
+                        '-moz-transform': 'rotate(' + degree + 'deg)',
+                        '-ms-transform': 'rotate(' + degree + 'deg)',
+                        '-o-transform': 'rotate(' + degree + 'deg)',
+                        'transform': 'rotate(' + degree + 'deg)',
+            });
+            $("#portfolio .port-header").css({
+                        'opacity':event_animate_alpha
+            });
+        }else{
+            $("#portfolio .port-header i").css({
+                        '-webkit-transform': 'rotate(' + 360 + 'deg)',
+                        '-moz-transform': 'rotate(' + 360 + 'deg)',
+                        '-ms-transform': 'rotate(' + 360 + 'deg)',
+                        '-o-transform': 'rotate(' + 360 + 'deg)',
+                        'transform': 'rotate(' + 360 + 'deg)',
+            });
+            $("#portfolio .port-header").css({
+                        'opacity':1
+            });
+        }
+    });
+
     $(document).scroll(function(){
         document_top = $(document).scrollTop()-2000;
         event_wapper_top = $("#blog").position().top-2110;

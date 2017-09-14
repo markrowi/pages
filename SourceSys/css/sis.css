@@ -232,7 +232,9 @@ p.copyright {
 
 .port-header {
   height: 50px;
+  margin-bottom: 20px;
   /* background-color: #007bff; */
+  font-size: 40px;
 }
 
 #blog {
