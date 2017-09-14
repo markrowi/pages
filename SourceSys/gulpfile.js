@@ -20,7 +20,7 @@ gulp.task('copy', function() {
     .pipe(gulp.dest('vendor/popper'))
 
 
-  gulp.src(['node_modules/owl.carousel/dist/owl.carousel.min.js'])
+  gulp.src(['node_modules/owl.carousel/dist/owl.carousel.min.js', 'node_modules/owl.carousel/dist/assets/owl.carousel.min.css'])
   .pipe(gulp.dest('vendor/carousel'))
 
 
