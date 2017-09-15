@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-header {
-  height: 500px;
+  height: 600px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -286,8 +286,17 @@ p.copyright {
 .owl-carousel .client-logo {
   cursor: pointer;
   height: 108px;
-  widows: 214px;
+  width: 214px;
   
+}
+
+.owl-carousel .client-logo img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+  width: auto;
 }
 
 .intro-header{
@@ -302,7 +311,7 @@ p.copyright {
 }
 .owl-slide {
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size:  100% auto;
   background-position: center;
   content: " ";
   height: 100%;
@@ -322,6 +331,9 @@ p.copyright {
   background-image: url(../img/banner_slide_03.jpg);
 }
 
+.owl-slide.slide-4{
+  background-image: url(../img/default-page-title-thinkergy.jpg);
+}
 
 .lead.-small{
   font-size: .8rem;
