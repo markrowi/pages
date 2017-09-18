@@ -107,6 +107,40 @@ body, h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
 }
 
+#testimonials {
+
+        background-image: url(http://appzpixel.com/img/testimonials/Testimonials.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#testimonials {
+  color: white;
+}
+
+#testimonials .quote i {
+  display: inline-block;
+}
+
+#testimonials .item .quote .left {
+    float: left;
+    margin-right: 40px;
+    color: #fff;
+}
+
+#testimonials .item .quote .right {
+    margin-left: 40px;
+    font-size: 32px;
+    color: #fff;
+}
+
 .banner h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -343,4 +377,60 @@ p.copyright {
   .intro-header{
     height: 150px;   
   }
+}
+
+#foxyform_embed_link_897261 {
+  display: none!important;
+}
+.meet-team{
+
+}
+.meet-team>header{
+  width: 389px;
+    height: 211px;
+    background-color: #3c4558;
+    border-radius: 6px 6px 0px 0px;
+    
+    /* padding: 20px; */
+    color:white;
+    position: relative;
+}
+
+.meet-team>header>.bg{
+  opacity: 0.199;
+    filter: alpha(opacity=10.843373493976);
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(//v.fastcdn.co/u/a1ab1db8/16292251-0-top-demo.png);
+    height: 100%;
+    padding-top:20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+ .meet-team>header>.container{
+  padding-top: 30px;
+} 
+
+input.formsubmit {
+  background-color: #0ee6c1;
+  position: absolute;
+    margin: 0;
+    top: 361.99975585938px;
+    left: -1.0003221875px;
+    width: 297px;
+    height: 51px;
+    box-sizing: content-box;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Lato;
+    border-radius: 0px;
+
 }

@@ -85,6 +85,21 @@ $(document).ready(function(){
                 nav:false
             },
         }
+    });
+  
+    var owlt = $("#testimonials-carousel");
+    owlt.owlCarousel({
+        navigation : true, 
+        slideSpeed : 4000,
+        paginationSpeed : 1000,
+        singleItem: true,
+        pagination: false,
+        rewindSpeed: 1000,
+        autoplay:true,
+        autoplayTimeout:4000,
+        loop:true,
+        transitionStyle: "backSlide",
+        items:1
 	});
 
     var owlc = $('#client-carousel');
@@ -117,4 +132,10 @@ $(document).ready(function(){
     owlc.on('mouseover', function(e){
         owlc.trigger('stop.owl.autoplay');
     });
+
+    $($('form').get(0)).ready(function(){
+        console.log(this);
+       $('input').get(0).addClass('form-control')
+       
+    })
 })
