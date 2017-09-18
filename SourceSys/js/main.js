@@ -133,9 +133,21 @@ $(document).ready(function(){
         owlc.trigger('stop.owl.autoplay');
     });
 
-    $($('form').get(0)).ready(function(){
-        console.log(this);
-       $('input').get(0).addClass('form-control')
-       
-    })
+
+
+    //   <!-- Do not change the code! -->
+    //         <a id="foxyform_embed_link_897261" href="http://www.foxyform.com/">foxyform</a>
+    //         <script type="text/javascript">
+    //         (function(d, t, jQuery){
+    //           var g = d.createElement(t),
+    //               s = d.getElementsByTagName(t)[0];
+    //           g.src = "http://www.foxyform.com/js.php?id=897261&sec_hash=2a5f86000c9&width=350px";
+    //           // jQuery(d).find('input').addClass('form-control');
+    //           // console.log(s,"sssss");
+    //           // console.log(g, "gggsa")
+    //           s.parentNode.insertBefore(g, s);
+              
+    //         }(document, "script"));
+    //         </script>
+    //         <!-- Do not change the code! -->
 })

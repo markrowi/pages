@@ -109,7 +109,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 #testimonials {
 
-        background-image: url(http://appzpixel.com/img/testimonials/Testimonials.jpg);
+    background-image: url(../img/Testimonials.jpg);
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -382,11 +382,9 @@ p.copyright {
 #foxyform_embed_link_897261 {
   display: none!important;
 }
-.meet-team{
 
-}
 .meet-team>header{
-  width: 389px;
+  /* width: 389px; */
     height: 211px;
     background-color: #3c4558;
     border-radius: 6px 6px 0px 0px;
@@ -395,7 +393,15 @@ p.copyright {
     color:white;
     position: relative;
 }
+.meet-team {
+  background: white;
+      border: 1px solid #e0e5ee;
+    border-radius: 0px 0px 0px 0px;
+}
 
+.meet-team > .container{
+  padding-top: 20px;
+}
 .meet-team>header>.bg{
   opacity: 0.199;
     filter: alpha(opacity=10.843373493976);
@@ -404,7 +410,7 @@ p.copyright {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-    background-image: url(//v.fastcdn.co/u/a1ab1db8/16292251-0-top-demo.png);
+    background-image: url(../img/16292251-0-top-demo.png);
     height: 100%;
     padding-top:20px;
     position: absolute;

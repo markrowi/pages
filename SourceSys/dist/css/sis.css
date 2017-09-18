@@ -1,0 +1,442 @@
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.intro-header {
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  /* background: url(../img/default-page-title-thinkergy.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner.-portfolio {
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-attachment: fixed;
+}
+
+#testimonials {
+
+    background-image: url(../img/Testimonials.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#testimonials {
+  color: white;
+}
+
+#testimonials .quote i {
+  display: inline-block;
+}
+
+#testimonials .item .quote .left {
+    float: left;
+    margin-right: 40px;
+    color: #fff;
+}
+
+#testimonials .item .quote .right {
+    margin-left: 40px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 90px;
+  padding: 0px;
+  width: auto;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: 20px;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+.-italic {
+  font-style: italic
+}
+.-center {
+  text-align: center;
+  float: none;
+}
+
+.port-box {
+  /* background: white; */
+  text-align: center;
+  /* height: 400px; */
+  padding: 20px;
+  /* margin-bottom: 30px; */
+  /* border:1px solid #e7e7e7; */
+  /* background-color: #f8f8f8; */
+
+}
+
+.port-title{
+  /* color:#212529; */
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.port-content {
+  /* color:#212529; */
+  margin-top: 20px;
+}
+
+.port-header {
+  height: 50px;
+  margin-bottom: 20px;
+  /* background-color: #007bff; */
+  font-size: 40px;
+}
+
+#blog {
+  overflow: hidden;
+}
+
+#blog .row:not(:last-child){
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+#blog .section-heading-spacer{
+  margin-top: 0px;
+}
+
+#footer{
+  background-color: #363636;
+  color:#fff;
+}
+
+.text-footer-address {
+  font-size: 32px;
+  word-wrap: break-word;
+}
+
+.footercontacts {
+  list-style: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.footercontacts a {
+  color:#fff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footercontacts a > span {
+  margin-right: 36px;
+  width: 20px;
+  height: 20px;
+  font-size: 27px;
+}
+
+.footercontacts li{
+  margin-bottom: 10px;
+}
+
+.owl-carousel .client-logo {
+  cursor: pointer;
+  height: 108px;
+  width: 214px;
+  
+}
+
+.owl-carousel .client-logo img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+  width: auto;
+}
+
+.intro-header{
+  /* position: relative; */
+  /* height: 80%; */
+  height: 560px;
+  padding: 0px;
+}
+
+.owl-stage-outer, .owl-stage, .owl-item {
+  height: 100%;
+}
+.owl-slide {
+  background-repeat: no-repeat;
+  background-size:  100% auto;
+  background-position: center;
+  content: " ";
+  height: 100%;
+  /* width: auto; */
+  
+} 
+
+.owl-slide.slide-1{
+  background-image: url(../img/banner_slide_01.jpg);
+}
+
+.owl-slide.slide-2{
+  background-image: url(../img/banner_slide_02.jpg);
+}
+
+.owl-slide.slide-3{
+  background-image: url(../img/banner_slide_03.jpg);
+}
+
+.owl-slide.slide-4{
+  background-image: url(../img/default-page-title-thinkergy.jpg);
+}
+
+.lead.-small{
+  font-size: .8rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .intro-header{
+    height: 150px;   
+  }
+}
+
+#foxyform_embed_link_897261 {
+  display: none!important;
+}
+
+.meet-team>header{
+  /* width: 389px; */
+    height: 211px;
+    background-color: #3c4558;
+    border-radius: 6px 6px 0px 0px;
+    
+    /* padding: 20px; */
+    color:white;
+    position: relative;
+}
+.meet-team {
+  background: white;
+      border: 1px solid #e0e5ee;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.meet-team > .container{
+  padding-top: 20px;
+}
+.meet-team>header>.bg{
+  opacity: 0.199;
+    filter: alpha(opacity=10.843373493976);
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/16292251-0-top-demo.png);
+    height: 100%;
+    padding-top:20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+ .meet-team>header>.container{
+  padding-top: 30px;
+} 
+
+input.formsubmit {
+  background-color: #0ee6c1;
+  position: absolute;
+    margin: 0;
+    top: 361.99975585938px;
+    left: -1.0003221875px;
+    width: 297px;
+    height: 51px;
+    box-sizing: content-box;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Lato;
+    border-radius: 0px;
+
+}
